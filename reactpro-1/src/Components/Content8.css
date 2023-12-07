@@ -1,0 +1,76 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40%;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    width: 145%;
+    
+  }
+  
+  .dropdown-trigger {
+    cursor: pointer;
+    background-color: blue;
+    color:white;
+    border: red;
+    border-color: red;
+    max-width: 20px;
+    text-align: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 60%;
+    z-index: 1;
+    color: white;
+    background-color: #111010;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content p {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list > div {
+    padding: 10px;
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .contact{
+    position: relative;
+    width: 145%;
+    min-height: 10px;
+    border: red;
+    cursor: pointer;
+  }
+  .feedback{
+    position: relative;
+    width: 145%;
+    min-height: 10px;
+    cursor: pointer;
+  }
+  .setting{
+    position: relative;
+    width: 145%;
+    min-height: 10px;
+    cursor: pointer;
+  }
+  .account{
+    position: relative;
+    width: 145%;
+    min-height: 10px;
+    cursor: pointer;
+  }
+  

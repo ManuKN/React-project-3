@@ -1,0 +1,42 @@
+.left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  #dragon{
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+}
+  .left input {
+    width: 30%;
+    height: 20%;
+    border: darkblue;
+    outline: aqua;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .left input::placeholder {
+    color: #ccc;
+  }
+  img{
+    width:40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .icons{
+    margin-left: 345px;
+    cursor: pointer;
+    
+  }
+  .icons1{
+    margin-right: 5px;
+  }
+  .icons2{
+    margin-right: 5px;
+  }
